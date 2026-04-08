@@ -34,6 +34,11 @@ User → Flask App → Docker Container → CI/CD Pipeline (GitHub Actions)
 ```bash
 docker build -t devops-app .
 
+
+
+
+
+
 ## ☸️ Kubernetes Deployment
 
 This project is deployed using Kubernetes with:
