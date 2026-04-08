@@ -57,3 +57,9 @@ minikube start
 kubectl apply -f deployment.yaml
 kubectl apply -f service.yaml
 ```
+
+## 🏗 Infrastructure as Code (Terraform)
+
+- Provisioned EC2 using Terraform
+- Automated Docker installation
+- Automated application deployment
