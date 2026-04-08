@@ -55,3 +55,19 @@ kubectl apply -f deployment.yaml
 kubectl apply -f service.yaml
 
 ````
+
+## ☸️ Kubernetes Deployment
+
+This project is deployed using Kubernetes with:
+
+- Deployment (multi-replica setup)
+- Service (NodePort)
+- Containerized using Docker
+
+### Run locally with Minikube
+
+```bash
+minikube start
+kubectl apply -f deployment.yaml
+kubectl apply -f service.yaml
+```
