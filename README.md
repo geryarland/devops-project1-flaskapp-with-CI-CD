@@ -50,10 +50,8 @@ This project is deployed using Kubernetes with:
 ### Run locally with Minikube
 
 ```bash
-minikube start
-kubectl apply -f deployment.yaml
-kubectl apply -f service.yaml
-
+docker build -t devops-app .
+docker run -t devops-app .
 ````
 
 ## ☸️ Kubernetes Deployment
