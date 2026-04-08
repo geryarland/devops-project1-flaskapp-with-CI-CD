@@ -36,23 +36,11 @@ User → Flask App → Docker Container → CI/CD Pipeline (GitHub Actions)
 
 ### 1. Build Docker Image
 
-````bash
-docker build -t devops-app .
-
-## ☸️ Kubernetes Deployment
-
-This project is deployed using Kubernetes with:
-
-- Deployment (multi-replica setup)
-- Service (NodePort)
-- Containerized using Docker
-
-### Run locally with Minikube
-
 ```bash
 docker build -t devops-app .
 docker run -t devops-app .
-````
+
+```
 
 ## ☸️ Kubernetes Deployment
 
